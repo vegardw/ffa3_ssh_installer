@@ -1,0 +1,3 @@
+[submodule "tools/png2ffa3fb"]
+	path = tools/png2ffa3fb
+	url = https://github.com/vegardw/png2ffa3fb.git
