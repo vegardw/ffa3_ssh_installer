@@ -6,7 +6,7 @@
 #
 
 SRC_DIR=`dirname $0`
-DST_DIR='/tmp/out'
+DST_DIR='/'
 
 PACKAGE_INSTALL_CMD='/bin/opkg install'
 COPY_CMD='/bin/cp -r'
