@@ -36,7 +36,7 @@ copy_files()
 # run scripts from scripts subdirectory
 run_scripts()
 {
-	for i in `dir $SRC_DIR/scripts`
+	for i in `/bin/ls $SRC_DIR/scripts`
 		do /bin/sh $SRC_DIR/scripts/$i
 		/bin/sync
 	done
